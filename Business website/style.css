@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    height:50px;
+    width:auto;
+    background:red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding-left: 20px;
+}
+.items{
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main{
+    height: 80vh;
+    width: auto;
+    background:blue;
+}
+
+.footer{
+    height:10vh;
+    width: auto;
+    background:green;
+
+}  
